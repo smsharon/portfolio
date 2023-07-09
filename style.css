@@ -1,3 +1,94 @@
 body {
     background: black;
   }
+  /*h1 {
+    color: white;
+  }*/
+  #navbar{
+    background: black;
+    border: 10px solid black;
+  }
+  .name{
+    color: #e97304;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  nav a{
+    text-decoration: none;
+    color:#fff;
+    margin: 20px; 
+    margin-top:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav li{
+    display: inline;
+    margin-left: 10 px;
+  }
+
+  #about{
+    background: #141414;
+  }
+  #about h1{
+    color: #fff;
+  }
+  #about p{
+    color:#fff;
+  }
+  #about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .image {
+    flex: 1;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+    max-width: 300px;
+    
+  }
+  #education{
+    background: #f08a2a;
+  }
+  #skills{
+    background: #6e4219;
+  }
+  #contact h2{
+    color: #f08a2a;
+  }
+  #contact{
+    background-color: #141414;
+    text-align: center;
+  }
+  
+  #contact img {
+    max-width: 100%;
+    height: auto;
+    width: 80px; 
+    height: 80px;
+    margin: 20px;
+  }
